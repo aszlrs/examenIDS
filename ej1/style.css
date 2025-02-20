@@ -1,0 +1,131 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+}
+
+body{
+  background-color: aliceblue;
+}
+  
+
+.headerDiv{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: stretch;
+    padding-top: 2vh;
+}
+
+.container {
+display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.taskInput{
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    margin-top: 2vh;
+}
+
+.count{
+display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+  margin-top: 1vh;
+  text-align: left;
+  font-size: 11px;
+}
+
+.tasks{
+  margin-top: 2vh;
+  display: block;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+}
+
+input{
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid rgb(99, 204, 51);
+    font-size: 15px;    
+    height: 3vh;
+    text-align: start;
+    padding-left:1vw;
+    color: rgb(34, 34, 34);
+}
+
+button{
+    height: 3vh;
+    text-align: start;
+    background-color: rgb(105, 179, 56);
+    outline: none;
+    border-radius: 5px;
+    width: 10vw;
+    text-align: center;
+    color: rgb(34, 34, 34);
+}
+
+
+
+.taskContainer{
+  background-color: rgb(231, 237, 235);
+  border-radius: 5px;
+  width: 50vw;
+  margin-top: .5vh;
+  align-items:space-between;
+  align-content:space-between;
+  height: 4vh;
+  display: flex;
+  align-self: center;
+  padding-left: 1.5vw;
+}
+
+.taskDiv{
+  width: 40vw;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+}
+
+.taskButtons{
+  width: 10vw;
+  align-items: space-between;
+  align-content: space-between;
+  align-self: center;
+  font-size: 10px;
+  cursor: pointer;
+}
+
+    
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+input[type="checkbox"] + label{
+  color: rgb(74, 74, 74);
+  text-align: center;
+  cursor: pointer;
+}
+
+

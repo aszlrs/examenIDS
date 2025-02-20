@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">    
+    <title>To Do List</title>
+</head>
+<body>
+    <div class="headerDiv">
+        <h2>LISTA DE TAREAS</h2>
+    </div>
+    <div class="container">        
+        <div class="taskInput">
+            <input type="text" id="taskText">
+            <button type="button" id="addButton">Agregar tarea</button>            
+        </div>
+        <div class="count">
+            <p>
+                Completado:
+                <span id="completedTag">0</span>
+                / Pendiente:
+                <span id="leftTag">0</span>
+            </p>          
+        </div>
+        <div class="tasks">
+            <ul id="taskList"></ul>            
+        </div>        
+    </div> 
+
+    <script src="app.js"></script>
+</body>
+</html>
