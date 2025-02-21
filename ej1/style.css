@@ -103,6 +103,7 @@ button{
   align-items: center;
   align-content: center;
   align-self: center;
+  font-weight: bold;
 }
 
 .taskButtons{
@@ -111,7 +112,7 @@ button{
   align-content: space-between;
   align-self: center;
   font-size: 10px;
-  cursor: pointer;
+  cursor: pointer;  
 }
 
     
